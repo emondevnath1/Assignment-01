@@ -239,7 +239,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    margin-top: 28px
+    margin-top: 28px;
 }
 .inspiration-video{
     box-sizing: border-box;
@@ -250,3 +250,132 @@ body{
     padding: 32px;
     margin-top: 60px;
 }
+.target{
+    min-height: 460px;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 151px;
+    align-items: center;
+    justify-content: center;
+}
+.target-head h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.target-head p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+    opacity: 0.7;
+}
+.target-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.target-body-1{
+    /* border: 40px solid rgba(255, 76, 30, 0.05); */
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    height: 299px;
+    width: 364px;
+}
+.target-child{
+    width: 284px;
+    height: 219px;
+    padding: 40px;
+}
+.target-child h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.target-child p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.btn-primary u{
+    font-size: 16px;
+font-weight: 700;
+margin-top: 24px;
+}
+.target-body-2{
+    /* border: 40px solid rgba(255, 76, 30, 0.05); */
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    height: 299px;
+    width: 364px;
+}
+.target-child h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.target-child p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.target-body-3{
+    /* border: 40px solid rgba(255, 76, 30, 0.05); */
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);;
+    height: 299px;
+    width: 364px;
+}
+.target-child h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.target-child p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+/* .support{
+    height: 325px;
+    width: 1140px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 49px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.support h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 68px;
+}
+.support p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.support-head{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 64px;
+}
+/* .support-head input-type[text]{
+    width: 548px;
+height: 57px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255); */ */
