@@ -12,7 +12,6 @@ body{
 .banner-container{
     width: 1440px;
     min-height: 652px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 50px;
     background-image: url('../assets/background.png');
@@ -39,9 +38,6 @@ body{
     text-align: center;
     margin-top: 24px;
 }
-.banner-btn{
-    /* border: 2px solid red; */
-}
 .banner-content button{
     background-color: rgb(13, 19, 33);
     color: white;
@@ -57,4 +53,172 @@ body{
     height: 240px;
     width: 240.28px;
     margin-top: 26px;
+}
+/* main section starts here */
+.develope-container{
+    width: 1140px;
+    min-height: 1050px;
+    margin: 0 auto;
+    margin-top: 66px;
+    background-color: rgba(13, 19, 33, 0.02); 
+    border-radius: 16px;
+}
+.develope-content{
+    width: 946px;
+    min-height: 900px;
+    margin-top: 80px;
+    margin: 0 auto;
+}
+.develope-content-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 115px;
+    width: 852px;
+    margin-top: 90px;
+}
+.develope-content-head h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0px;
+}
+.develope-content-head p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+}
+.develope-content-body{
+    width: 946px;
+    height: 1072px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.develope-content-child1{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    height: 336px;
+    width: 946px;
+    margin-top: 48px;
+}
+.develope-content-child1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 240px;
+    gap: 99.77px;
+}
+.develope-content-child11{
+    height: 219px;
+    width: 477px;
+}
+.develope-content-child11 h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-style: 700;
+    text-align: left;
+}
+.develope-content-child11 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-style: 400;
+    text-align: left;
+    margin-top: 16px;
+}
+.develope-content-child11 button{
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.develope-content-child12{
+    height: 217.01px;
+    width: 259.56px;
+}
+.develope-content-child2{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    height: 336px;
+    width: 946px;
+    margin-top: 48px;
+}
+.develope-content-child2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 240px;
+}
+.develope-content-child22 h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-style: 700;
+}
+.develope-content-child22 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-style: 400;
+    text-align: left;
+    margin-top: 16px;
+}
+.develope-content-child22 button{
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.develope-content-child3{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    height: 336px;
+    width: 946px;
+    margin-top: 48px;
+}
+.develope-content-child3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 240px;
+}
+.develope-content-child31 h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-style: 700;
+}
+.develope-content-child31 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-style: 400;
+    text-align: left;
+    margin-top: 16px;
+}
+.develope-content-child31 button{
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
 }
