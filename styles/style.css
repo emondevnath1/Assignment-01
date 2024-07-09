@@ -222,3 +222,31 @@ body{
     font-weight: 600;
     margin-top: 32px;
 }
+.inspiration{
+    min-height: 775px;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 96px;
+    align-items: center;
+    justify-content: center;
+}
+.inspiration h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.inspiration p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 28px
+}
+.inspiration-video{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 0 auto;
+    height: 614px;
+    padding: 32px;
+    margin-top: 60px;
+}
