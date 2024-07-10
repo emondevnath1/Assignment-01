@@ -410,13 +410,12 @@ text-align: center;
 }
 .foot-content{
     align-items: center;
-    padding: 0px 150px;
-    width: 1140px;
+    padding: 32px 150px;
+    width: 1140px; 
    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    height: 100px;
+    height: 110px;
 }
 .foot-content-1{
     font-size: 20px;
@@ -424,7 +423,11 @@ font-weight: 600;
 text-align: left;
 }
 .foot-content-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
     width: 157.01px;
 height: 36px;
-margin-left: 200px;
+padding-left: 150px;
+padding-right: 1px;
 }
